@@ -1,0 +1,21 @@
+:host {
+    border: 1px solid lightgray;
+    padding: 1px 0;
+    display: inline-block;
+    background-color: white;
+}
+
+:host(.input-focus) {
+    outline: none;
+    border: 1px solid #4D90fe;
+    box-shadow: 0px 0px 5px #4D90fe;
+}
+
+.icon {
+    width: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+  
+

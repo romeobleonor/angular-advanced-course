@@ -30,3 +30,15 @@ h1 {
   margin-top: 50px;
 }
 
+.custom-input input, .normal-input {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: none;
+    outline: none;
+    height: 100%;
+    margin: 1px 0;
+    box-sizing: border-box; */
+}

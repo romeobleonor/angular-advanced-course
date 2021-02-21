@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import {HttpClientModule} from "@angular/common/http";
+import { AuFaInputComponent } from './lib/au-fa-input/au-fa-input/au-fa-input/au-fa-input.component';
+import { CcInputDirective } from './lib/au-fa-input/au-fa-input/au-fa-input/cc-input.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuFaInputComponent,
+    CcInputDirective
   ],
   imports: [
     BrowserModule,
@@ -15,6 +19,6 @@ import {HttpClientModule} from "@angular/common/http";
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ]
 })
 export class AppModule { }

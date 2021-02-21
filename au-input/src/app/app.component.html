@@ -3,8 +3,7 @@
     <li class="logo-small-container">
       <a class="v-center-block-parent">
         <img class="v-center-block logo-small angular-university-logo"
-             src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png"
-             data-pin-nopin="true">
+          src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png" data-pin-nopin="true">
 
       </a>
     </li>
@@ -16,25 +15,47 @@
 </header>
 
 <body>
-<div class="container">
-  <h1>Font Awesome</h1>
+  <div class="container">
+    <h1>Font Awesome</h1>
 
-<div class="form">
+    <div class="form">
+      <div class="form-row">
+        <label>Normal Input:</label>
+        <input class="normal-input" type="email" name="email" placeholder="E-mail">
+      </div>
+      <div class="form-row">
+        <label>Email:</label>
+        <au-fa-input class="custom-input" icon="envelope" placeholder="email">
+          <input #input type="email" name="email" placeholder="Email">
+        </au-fa-input>
+      </div>
+      <div class="form-row">
+        <label>Password:</label>
+        <au-fa-input class="custom-input" icon="lock">
+          <input #input type="password" name="email" placeholder="Password">
+        </au-fa-input>
+      </div>
+      <div class="form-row">
+        <label>Strip:</label>
+        <au-fa-input class="custom-input" icon="lock" placeholder="Strip">
+          <input #input type="text" name="email" placeholder="Strip">
+        </au-fa-input>
+      </div>
+      <div class="form-row">
+        <label>Paypal:</label>
+        <au-fa-input class="custom-input" icon="paypal" placeholder="Paypal" appCcInput>
+          <input #input type="text" name="email" placeholder="Paypal">
+        </au-fa-input>
+      </div>
 
-  <div class="form-row">
-      <label>Normal Input:</label>
-      <input class="normal-input" type="email" name="email" placeholder="E-mail">
+    </div>
+
+
+
+
+
+
+
   </div>
 
-</div>
-
-
-
-
-
-
-
-</div>
-
 </body>
-
